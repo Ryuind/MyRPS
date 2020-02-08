@@ -1,0 +1,243 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+
+
+
+header {
+background: white;
+padding: 20px;
+}
+
+header h1 {
+	color: #24272E;
+	text-align: center;
+	font-family: Arial, sans-serif;
+}
+
+body{
+background-image: url("pictures/battlebackground");
+ background-repeat: no-repeat;
+background-size: 1600px;
+
+
+
+}
+
+.score-board {
+margin: 20px auto;
+border: 3px solid white;
+width: 200px;
+font-size: 46px;
+border-radius: 4px;
+text-align: center;
+color: white;
+padding: 15px 20px;
+font-family: Arial, Sans-serif;
+position: relative;
+}
+
+.result {
+font-size: 40px;
+color:white;
+}
+
+.result > p {
+text-align: center;
+font-weight: bold;
+font-family: Arial, sans-serif;
+}
+.hearts{
+position: relative;
+
+}
+
+
+ .heart1{
+position: absolute;
+width: 50px;
+height: 50px;
+margin-left:50px;
+}
+.heart2{
+position: absolute;
+width: 50px;
+height: 50px;
+margin-left:100px;
+}
+.heart3{
+position: absolute;
+width: 50px;
+height: 50px;
+margin-left:150px;
+}
+.heart4{
+position: absolute;
+width: 50px;
+height: 50px;
+margin-left:200px;
+}
+.heart5{
+position: absolute;
+width: 50px;
+height: 50px;
+margin-left:250px;
+}
+
+
+.choHeart1{
+position: absolute;
+width: 50px;
+height: 50px;
+margin-left:700px;
+}
+.choHeart2{
+position: absolute;
+width: 50px;
+height: 50px;
+margin-left:750px;
+}
+.choHeart3{
+position: absolute;
+width: 50px;
+height: 50px;
+margin-left:800px;
+}
+.choHeart4{
+position: absolute;
+width: 50px;
+height: 50px;
+margin-left:850px;
+}
+.choHeart5{
+position: absolute;
+width: 50px;
+height: 50px;
+margin-left:900px;
+}
+
+.character {
+display: inline-block;
+position: relative;
+}
+.ezreal{
+position: absolute;
+width: 150px;
+height:200px;
+border-radius: 20%;
+margin-left: 100px;
+margin-top:50px;
+}
+
+.cho{
+position: absolute;
+width: 150px;
+height:200px;
+border-radius: 20%;
+margin-left: 750px;
+margin-top:50px;
+}
+
+
+
+.badge {
+background: #E25840;
+color: white;
+font-size: 14px;
+padding:2px 10px
+font-family: Arial, sans-serif;
+}
+
+#user-label {
+position: absolute;
+top: 30px;
+left: -20px;
+}
+
+#comp-label {
+position: absolute;
+top: 30px;
+right: -20px;
+}
+
+.choice{
+display: inline-block;
+border: 4px solid white;
+border-radius: 50%;
+padding: 10px;
+margin: 0 15px;
+transition: all 0.3s ease;
+}
+
+.choices{
+margin-top: 50px;
+text-align: center;
+}
+
+.rockPic{
+height: 100px;
+width: 100px;
+border-radius: 50%;
+}
+
+.scissorPic{
+height: 100px;
+width: 100px;
+border-radius: 50%;
+}
+
+.paperPic{
+height: 100px;
+width: 100px;
+border-radius: 50%;
+}
+
+.choice:hover{
+cursor: pointer;
+background: blue;
+}
+
+#action-message {
+text-align: center;
+color: white;
+font-family: Arial, Sans-serif;
+font-weight: bold;
+font-size: 20px;
+margin-top: 20px;
+}
+
+
+.green-glow {
+border: 4px solid #4dcc7d;
+box-shadow: 0 0 10px #31b43a; 
+}
+
+
+.red-glow {
+border: 4px solid #fc121b;
+box-shadow: 0 0 10px #d01115;
+}
+
+.gray-glow {
+border: 4px solid #464647;
+box-shadow: 0 0 10px #25292b;
+}
+
+.greenish-glow {
+background-color: #31b43a;
+}
+
+.redish-glow {
+background-color: #d01115;
+}
+
+.grayish-glow {
+background-color: #25292b;
+}
+
+
