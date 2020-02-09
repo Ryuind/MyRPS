@@ -16,7 +16,9 @@ const cheart3_div = document.getElementById("chrt3");
 const cheart4_div = document.getElementById("chrt4");
 const cheart5_div = document.getElementById("chrt5");
 
-
+function anotherGame(){
+    window.location.reload();
+}
 
 function getComputerChoice() {
     const choices = ['r', 'p', 's'];
@@ -88,7 +90,7 @@ function lose(userChoice, computerChoice){
 
 function tie(userChoice, computerChoice){
     const userChoice_div =  document.getElementById(userChoice);
-    result_div.innerHTML = `You both chose ${convertToWord(userChoice)} which ends in a no one's favor.` ;
+    result_div.innerHTML = `You both chose ${convertToWord(userChoice)} which ends in no one's favor.` ;
     body_div.classList.add('grayish-glow');
     setTimeout(function(){body_div.classList.remove('grayish-glow')}, 1500);
     userChoice_div.classList.add('gray-glow');
